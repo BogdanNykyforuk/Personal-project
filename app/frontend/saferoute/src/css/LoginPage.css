@@ -1,0 +1,17 @@
+.login-page {
+    background-color: #000000;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+  
+  h4 {
+    margin-top: 16px;
+    margin-bottom: 32px;
+  } 

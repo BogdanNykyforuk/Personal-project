@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "7segment";
+    src: local("7segment"),
+     url("../fonts/7segmentfont.ttf") format("truetype");
+    font-weight: bold;
+   }
+
+.clock {
+    font-family: 7segment;
+}

@@ -1,0 +1,21 @@
+:root,
+[data-amplify-authenticator] {
+  --amplify-colors-background-primary: #20232a;
+  --amplify-colors-background-secondary: #282c34;
+  --amplify-colors-border-primary: #000000;
+  --amplify-colors-border-secondary: #20232a;
+  --amplify-colors-font-primary: #cccccc;
+  --amplify-colors-font-secondary: #929cb9;
+  --amplify-colors-brand-primary-10: #373c49;
+  --amplify-colors-brand-primary-20: #586074;
+  --amplify-colors-brand-primary-60: #000000;
+  --amplify-colors-brand-primary-80: #5e6ea1;
+  --amplify-colors-brand-primary-90: #7e8bb4;
+  --amplify-colors-brand-primary-100: #9fa8c6;
+  --amplify-colors-font-interactive:  #949cb8;
+  --amplify-components-tabs-item-active-color: #cccccc;
+  --amplify-components-tabs-item-focus-color: #838eaf;
+  --amplify-components-tabs-item-hover-color: #ff8800;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+}

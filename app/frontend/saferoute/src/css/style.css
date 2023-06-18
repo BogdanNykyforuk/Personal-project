@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+header {
+  background-color: black;
+  padding: 0; 
+  margin:0;
+}
+
+nav ul {
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li img {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.navHover{
+
+}
+
+.navHover:hover {
+  background-color: #333;
+} 
