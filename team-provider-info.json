@@ -1,0 +1,22 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify7b8737d115e94-staging-12955-authRole",
+      "UnauthRoleArn": "arn:aws:iam::780992533229:role/amplify-amplify7b8737d115e94-staging-12955-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::780992533229:role/amplify-amplify7b8737d115e94-staging-12955-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-amplify7b8737d115e94-staging-12955-deployment",
+      "UnauthRoleName": "amplify-amplify7b8737d115e94-staging-12955-unauthRole",
+      "StackName": "amplify-amplify7b8737d115e94-staging-12955",
+      "StackId": "arn:aws:cloudformation:eu-north-1:780992533229:stack/amplify-amplify7b8737d115e94-staging-12955/2ce70e70-ea1b-11ed-9c80-0ee3dce2c940",
+      "AmplifyAppId": "d3d4kky5khtwtb",
+      "NetworkStackS3Url": "https://s3.amazonaws.com/amplify-amplify7b8737d115e94-staging-12955-deployment/amplify-cfn-templates/networkingStackTemplate.json"
+    },
+    "categories": {
+      "auth": {
+        "saferoute60bd68c1": {},
+        "saferouted014f146": {}
+      }
+    }
+  }
+}

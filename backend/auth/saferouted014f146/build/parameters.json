@@ -1,0 +1,63 @@
+{
+  "identityPoolName": "saferouted014f146_identitypool_d014f146",
+  "allowUnauthenticatedIdentities": false,
+  "resourceNameTruncated": "saferod014f146",
+  "userPoolName": "saferouted014f146_userpool_d014f146",
+  "autoVerifiedAttributes": [
+    "email"
+  ],
+  "mfaConfiguration": "OFF",
+  "mfaTypes": [
+    "SMS Text Message"
+  ],
+  "smsAuthenticationMessage": "Your authentication code is {####}",
+  "smsVerificationMessage": "Your verification code is {####}",
+  "emailVerificationSubject": "Your verification code",
+  "emailVerificationMessage": "Your verification code is {####}",
+  "defaultPasswordPolicy": false,
+  "passwordPolicyMinLength": 8,
+  "passwordPolicyCharacters": [],
+  "requiredAttributes": [
+    "email"
+  ],
+  "aliasAttributes": [],
+  "userpoolClientGenerateSecret": false,
+  "userpoolClientRefreshTokenValidity": 30,
+  "userpoolClientWriteAttributes": [],
+  "userpoolClientReadAttributes": [],
+  "userpoolClientLambdaRole": "saferod014f146_userpoolclient_lambda_role",
+  "userpoolClientSetAttributes": false,
+  "sharedId": "d014f146",
+  "resourceName": "saferouted014f146",
+  "authSelections": "identityPoolAndUserPool",
+  "useDefault": "manual",
+  "hostedUI": true,
+  "hostedUIDomainName": "saferouted014f146-d014f146",
+  "authProvidersUserPool": [
+    "Google"
+  ],
+  "hostedUIProviderMeta": "[{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
+  "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://main.d3d4kky5khtwtb.amplifyapp.com/\"],\"LogoutURLs\":[\"https://main.d3d4kky5khtwtb.amplifyapp.com/\"]}",
+  "userPoolGroupList": [],
+  "serviceName": "Cognito",
+  "usernameCaseSensitive": false,
+  "useEnabledMfas": true,
+  "authRoleArn": {
+    "Fn::GetAtt": [
+      "AuthRole",
+      "Arn"
+    ]
+  },
+  "unauthRoleArn": {
+    "Fn::GetAtt": [
+      "UnauthRole",
+      "Arn"
+    ]
+  },
+  "breakCircularDependency": true,
+  "dependsOn": [],
+  "userPoolGroups": false,
+  "adminQueries": false,
+  "thirdPartyAuth": false,
+  "authProviders": []
+}
